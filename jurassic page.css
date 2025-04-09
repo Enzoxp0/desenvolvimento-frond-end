@@ -1,0 +1,41 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start; 
+   font-family: Arial, sans-serif;
+}
+
+.topo {
+   background-image: url("jp_topoFundo.jpg");
+   height: 200px;
+   width: 900px;
+   background-size: cover; 
+   background-position: center; 
+   margin-top: 20px; 
+}
+
+.fundoMenu {
+   background-image: url("jp_menuFundo.jpg");
+   height: 50px;
+   width: 400px;
+   background-size: cover; 
+   background-position: center; 
+   float: right;
+   margin-top: 80px;
+   margin-right: 100px;
+   border: solid snow 4px;
+   
+}
+
+
+
+body{
+   background-color: darkgreen;
+}
